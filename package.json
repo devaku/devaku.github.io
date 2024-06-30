@@ -1,0 +1,14 @@
+{
+	"name": "resume",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"tailwind-build": "npx tailwindcss -i ./src/input.css -o ./css/output.css --watch"
+	},
+	"author": "Alejo Kim Uy",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.4.4"
+	}
+}

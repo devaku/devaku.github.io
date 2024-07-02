@@ -14,21 +14,24 @@
 	background-color: rgb(42, 128, 225);
 }
 
+.z-bg-blue-dark {
+	border-color: #f8f595;
+	background-color: hsl(212, 75%, 25%);
+}
+
 .z-bg-yellow {
 	background-color: #f8f595;
 }
 
-.vertical-line-color {
-	border-color: #f8f595;
-}
-.vertical-line-color:before {
-	width: 10px;
-	height: 10px;
-	background-color: #f8f595;
-	content: '>';
-}
-
 /* Design */
+
+/* Burger */
+input[type='checkbox'] + label {
+	background: url('../assets/burger.svg') no-repeat left center;
+}
+input[type='checkbox']:checked + label {
+	background: url('../assets/cross.svg') no-repeat left center;
+}
 
 .vertical {
 	height: 100%;
@@ -37,6 +40,10 @@
 /* Utilities */
 .hidden {
 	display: none;
+}
+
+.invert {
+	filter: invert(1);
 }
 
 /* Fonts */

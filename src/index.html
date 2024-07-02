@@ -13,118 +13,255 @@
 		<style></style>
 	</head>
 	<body class="z-bg-blue">
-		<main class="mx-3">
-			<!-- Name -->
-			<section>
-				<div class="flex flex-row">
-					<!-- Burger Menu -->
+		<div class="flex">
+			<!-- Sidebar -->
+			<div
+				class="hidden sm:flex flex-col justify-evenly w-2/12 h-full z-bg-blue-dark fixed">
+				<!-- Profile Picture -->
+				<div class="flex justify-center">
+					<img
+						class="w-6/12"
+						src="../assets/icon.jpeg"
+						alt="Profile Picture"
+						srcset="" />
+				</div>
+				<!-- Nav proper -->
+				<nav class="text-white flex flex-col items-center">
+					<ul>
+						<li class="py-2">Home</li>
+						<li class="py-2">Contact Me</li>
+					</ul>
+				</nav>
+				<!-- Socials -->
+				<div class="flex justify-center">
 					<div>
-						<img
-							class="size-10"
-							src="../assets/burger.svg"
-							alt="Burger Menu"
-							srcset="" />
-					</div>
-					<div class="grow-1 w-full content-center">
-						<p class="roboto-serif-700 text-center">Alejo Kim Uy</p>
-					</div>
-				</div>
-			</section>
-			<!-- Profile Section -->
-			<section class="my-4">
-				<h3 class="roboto-serif-700">Profile</h3>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Odit esse explicabo quibusdam amet tempora at, error
-					cupiditate totam nihil nisi culpa, nam aliquid iste? Amet
-					vitae libero impedit ducimus tenetur!
-				</p>
-			</section>
-			<!-- Education Section -->
-			<section class="my-4">
-				<!-- Main Title -->
-				<div>
-					<h3 class="roboto-serif-700">Education</h3>
-				</div>
-				<!-- Education  -->
-				<div>
-					<!-- Entry -->
-					<div class="flex">
-						<!-- Timeline -->
-						<div class="mr-2">
-							<span
-								class="block w-4 h-4 rounded-full mt-1 z-bg-yellow"></span>
-							<span
-								class="block w-1 h-full translate-x-[6px] z-bg-yellow"></span>
-						</div>
-						<div class="">
-							<div>Master's in Information Technology</div>
-							<div>DURATION - LOCATION</div>
-						</div>
-					</div>
+						<a href="https://www.linkedin.com/in/devaku/">
+							<img
+								class="inline-block invert"
+								src="../assets/linkedin.svg"
+								alt="LinkedIn"
+								srcset="" />
+						</a>
 
-					<!-- Entry -->
-					<div class="flex">
-						<div class="mr-2">
-							<span
-								class="block w-4 h-4 rounded-full mt-1 z-bg-yellow"></span>
-						</div>
-						<div class="">
-							<div>Master's in Information Technology</div>
-							<div>DURATION - LOCATION</div>
-						</div>
+						<a href="https://github.com/devaku?tab=repositories">
+							<img
+								class="inline-block invert"
+								src="../assets/github.svg"
+								alt="Github"
+								srcset="" />
+						</a>
 					</div>
 				</div>
-			</section>
-			<!-- Experience -->
-			<section>
-				<!-- Main Title -->
-				<div>
-					<h3>Experience</h3>
-				</div>
-				<!-- Experience  -->
-				<div>
-					<!-- First Entry -->
+			</div>
+
+			<main class="w-11/12 md:w-6/12 mx-auto">
+				<!-- Header -->
+				<header class="mt-4">
+					<div class="flex flex-row">
+						<!-- Burger Menu -->
+						<div class="md:hidden flex flex-col items-center">
+							<input
+								class="hidden"
+								type="checkbox"
+								name="mobile-burger"
+								id="mobile-burger" />
+							<label
+								class="w-10 h-10 p-4"
+								id="mobile-burger-label"
+								for="mobile-burger"></label>
+						</div>
+						<div class="grow-1 text-3xl w-full content-center">
+							<p class="roboto-serif-700 text-center">
+								Alejo Kim Uy
+							</p>
+						</div>
+					</div>
+				</header>
+				<!-- Profile Section -->
+				<section class="my-4">
+					<h3 class="text-3xl roboto-serif-700">Profile</h3>
+					<p class="text-justify">
+						A skilled professional, bringing a strong work ethic,
+						web development expertise, and simple yet creative
+						solutions to technical problems. Eager to join the
+						workforce, I am ready to hit the ground running and
+						apply myself to the job to the best of my ability. My
+						goal is to put my knowledge, skills and understanding to
+						good use and provide remarkable service to the
+						organization.
+					</p>
+				</section>
+
+				<!-- Experience -->
+				<section class="my-4">
+					<!-- Main Title -->
 					<div>
-						<div>DOT?</div>
-						<div>Web Developer</div>
-						<div>DURATION - LOCATION</div>
-						<div>
-							Lorem ipsum dolor sit amet, consectetur adipisicing
-							elit. Culpa nobis cumque reiciendis perferendis
-							accusamus illum aspernatur provident similique
-							voluptatum, soluta possimus sequi. Provident saepe
-							ipsa voluptatem laudantium perspiciatis vitae
-							commodi?
-						</div>
+						<h3 class="text-3xl roboto-serif-700">Experience</h3>
 					</div>
-					<!-- Second Entry -->
+					<!-- Entries -->
 					<div>
-						<div>DOT?</div>
-						<div>Web Developer</div>
-						<div>DURATION - LOCATION</div>
-						<div>
-							Lorem ipsum dolor sit amet, consectetur adipisicing
-							elit. Culpa nobis cumque reiciendis perferendis
-							accusamus illum aspernatur provident similique
-							voluptatum, soluta possimus sequi. Provident saepe
-							ipsa voluptatem laudantium perspiciatis vitae
-							commodi?
+						<!-- First Entry -->
+						<div class="flex">
+							<!-- Timeline -->
+							<div class="mr-2">
+								<span
+									class="block w-4 h-4 rounded-full mt-1 z-bg-yellow"></span>
+								<span
+									class="block w-1 h-full translate-x-[6px] z-bg-yellow"></span>
+							</div>
+							<div class="">
+								<div class="font-bold">
+									<span>Web Developer</span>
+									<span>TinkrTech Inc</span>
+								</div>
+								<div class="">
+									<div>April 2022 - April 2024</div>
+									<div>
+										Dasmariñas City, Cavite, Philippines
+									</div>
+								</div>
+
+								<div class="text-justify">
+									<p>
+										Developed microservices to break down a
+										currently existing monolithic software.
+									</p>
+									<p>
+										Led the creation of various REST APIs
+										that interfaced with different
+										applications in the company.
+									</p>
+									<p>
+										Assisted in the continued maintenance of
+										the software of the company.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Last Entry -->
+						<div class="flex">
+							<!-- Timeline -->
+							<div class="mr-2">
+								<span
+									class="block w-4 h-4 rounded-full mt-1 z-bg-yellow"></span>
+							</div>
+							<div class="">
+								<div class="font-bold">
+									<span>
+										Information Technology Programmer
+									</span>
+									<span>HTech Corporation</span>
+								</div>
+								<div class="">
+									<div>April 2016 - May 2022</div>
+									<div>Muntinlupa, Alabang, Philippines</div>
+								</div>
+								<div class="text-justify">
+									<p>
+										Developed a Rule-Based Chatbot
+										Application: GetBotty.
+									</p>
+									<p>
+										Integrated different payment-gateway
+										services to the GetBotty project:
+										Stripe, PayMaya, GrabPay
+									</p>
+									<p>
+										Created various technical applications
+										for internal use within the company.
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-			<!-- Skills -->
-			<section>
-				<ul>
-					<li>SQL</li>
-					<li>NodeJS</li>
-					<li>Python</li>
-				</ul>
-			</section>
-		</main>
-		<footer>
-			<div>2024 - Alejo Kim Uy</div>
+				</section>
+
+				<!-- Skills -->
+				<section>
+					<div>
+						<h3 class="text-3xl roboto-serif-700">Skills</h3>
+					</div>
+					<ul>
+						<li>SQL</li>
+						<li>NodeJS</li>
+						<li>Python</li>
+					</ul>
+				</section>
+
+				<!-- Education -->
+				<section class="my-4">
+					<!-- Main Title -->
+					<div>
+						<h3 class="text-3xl roboto-serif-700">Education</h3>
+					</div>
+					<!-- Education  -->
+					<div>
+						<!-- First Entry -->
+						<div class="flex">
+							<!-- Timeline -->
+							<div class="mr-2">
+								<span
+									class="block w-4 h-4 rounded-full mt-1 z-bg-yellow"></span>
+								<span
+									class="block w-1 h-full translate-x-[6px] z-bg-yellow"></span>
+							</div>
+							<div class="">
+								<div class="font-bold">
+									Diploma in Software Development
+								</div>
+								<div>
+									<div>Expected Date: December 2025</div>
+									<div>
+										Southern Alberta Institute of Technology
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="flex">
+							<!-- Timeline -->
+							<div class="mr-2">
+								<span
+									class="block w-4 h-4 rounded-full mt-1 z-bg-yellow"></span>
+								<span
+									class="block w-1 h-full translate-x-[6px] z-bg-yellow"></span>
+							</div>
+							<div class="">
+								<div class="font-bold">
+									Master in Information Technology
+								</div>
+								<div class="">
+									<div>2017 - 2021</div>
+									<div>De La Salle University–Dasmariñas</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Last Entry -->
+						<div class="flex">
+							<div class="mr-2">
+								<span
+									class="block w-4 h-4 rounded-full mt-1 z-bg-yellow"></span>
+							</div>
+							<div class="">
+								<div class="font-bold">
+									Bachelor of Science in Computer Science
+								</div>
+								<div class="">
+									<div>2011 - 2014</div>
+									<div>De La Salle University–Dasmariñas</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+
+		<footer
+			class="w-11/12 h-10 mt-4 mx-auto flex justify-center font-semibold">
+			<div>&copy; 2024 Alejo Kim Uy</div>
 		</footer>
 	</body>
 </html>

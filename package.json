@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"tailwind-build": "npx tailwindcss -i ./src/input.css -o ./css/output.css --watch"
+		"tailwind-dev": "npx tailwindcss -i ./src/input.css -o ./css/output.css --watch",
+        "tailwind-build": "npx tailwindcss -i ./src/input.css -o ./css/output.css"
 	},
 	"author": "Alejo Kim Uy",
 	"license": "ISC",

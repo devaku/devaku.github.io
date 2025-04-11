@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Alejo Kim Uy - Resume</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="./output.css" />
+		<style></style>
+	</head>
+	<body class="z-bg-blue">
+		<div class="flex">
+			<!-- Sidebar -->
+			<div
+				class="hidden sm:flex flex-col justify-evenly w-2/12 h-full z-bg-blue-dark fixed">
+				<!-- Profile Picture -->
+				<div class="flex justify-center">
+					<img
+						class="w-6/12"
+						src="./assets/icon.jpeg"
+						alt="Profile Picture"
+						srcset="" />
+				</div>
+				<!-- Nav proper -->
+				<nav class="text-white flex flex-col items-center">
+					<ul>
+						<a href=""><li class="py-2">Home</li></a>
+
+						<a href="mailto:alejokimwork@gmail.com">
+							<li class="py-2">Contact Me</li>
+						</a>
+					</ul>
+				</nav>
+				<!-- Socials -->
+				<div class="flex justify-center">
+					<div>
+						<a href="https://www.linkedin.com/in/devaku/">
+							<img
+								class="inline-block invert"
+								src="./assets/linkedin.svg"
+								alt="LinkedIn"
+								srcset="" />
+						</a>
+
+						<a href="https://github.com/devaku?tab=repositories">
+							<img
+								class="inline-block invert"
+								src="./assets/github.svg"
+								alt="Github"
+								srcset="" />
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<main class="w-11/12 md:w-6/12 mx-auto text-black">
+				<!-- Header -->
+				<header class="mt-4">
+					<div class="flex flex-row">
+						<!-- Burger Menu -->
+						<div class="md:hidden flex flex-col items-center">
+							<input
+								class="hidden"
+								type="checkbox"
+								name="mobile-burger"
+								id="mobile-burger" />
+							<label
+								class="w-10 h-10 p-4"
+								id="mobile-burger-label"
+								for="mobile-burger"></label>
+						</div>
+						<div class="grow-1 text-3xl w-full content-center">
+							<p class="roboto-serif-700 text-center">
+								Alejo Kim Uy
+							</p>
+						</div>
+					</div>
+				</header>
+				<!-- Profile Section -->
+				<section class="my-4">
+					<h3 class="text-3xl roboto-serif-700">Profile</h3>
+					<p class="text-justify">
+						A skilled professional, bringing a strong work ethic,
+						web development expertise, and simple yet creative
+						solutions to technical problems. Eager to join the
+						workforce, I am ready to hit the ground running and
+						apply myself to the job to the best of my ability. My
+						goal is to put my knowledge, skills and understanding to
+						good use and provide remarkable service to the
+						organization.
+					</p>
+				</section>
+
+				<!-- Experience -->
+				<section class="my-4">
+					<!-- Main Title -->
+					<div>
+						<h3 class="text-3xl roboto-serif-700">Experience</h3>
+					</div>
+					<!-- Entries -->
+					<div>
+						<!-- First Entry -->
+						<div class="flex">
+							<!-- Timeline -->
+							<div class="mr-2">
+								<span
+									class="block w-4 h-4 rounded-full mt-1 z-bg-yellow"></span>
+								<span
+									class="block w-1 h-full translate-x-[6px] z-bg-yellow"></span>
+							</div>
+							<div class="">
+								<div class="font-bold">
+									<span>Web Developer</span>
+									<span>TinkrTech Inc</span>
+								</div>
+								<div class="">
+									<div>April 2022 - April 2024</div>
+									<div>
+										Dasmariñas City, Cavite, Philippines
+									</div>
+								</div>
+
+								<div class="text-justify">
+									<p>
+										Developed microservices to break down a
+										currently existing monolithic software.
+									</p>
+									<p>
+										Led the creation of various REST APIs
+										that interfaced with different
+										applications in the company.
+									</p>
+									<p>
+										Assisted in the continued maintenance of
+										the software of the company.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Last Entry -->
+						<div class="flex">
+							<!-- Timeline -->
+							<div class="mr-2">
+								<span
+									class="block w-4 h-4 rounded-full mt-1 z-bg-yellow"></span>
+							</div>
+							<div class="">
+								<div class="font-bold">
+									<span>
+										Information Technology Programmer
+									</span>
+									<span>HTech Corporation</span>
+								</div>
+								<div class="">
+									<div>April 2016 - May 2022</div>
+									<div>Muntinlupa, Alabang, Philippines</div>
+								</div>
+								<div class="text-justify">
+									<p>
+										Developed a Rule-Based Chatbot
+										Application: GetBotty.
+									</p>
+									<p>
+										Integrated different payment-gateway
+										services to the GetBotty project:
+										Stripe, PayMaya, GrabPay
+									</p>
+									<p>
+										Created various technical applications
+										for internal use within the company.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Skills -->
+				<section>
+					<div>
+						<h3 class="text-3xl roboto-serif-700">Skills</h3>
+					</div>
+                    
+					<div class="grid grid-cols-3 gap-1 text-center">
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>JavaScript</div>
+                        <div>React</div>
+                        <div>Express</div>
+                        <div>NodeJS</div>
+                        <div>SQL</div>
+                        <div>Python</div>
+					</ul>
+				</section>
+
+				<!-- Education -->
+				<section class="my-4">
+					<!-- Main Title -->
+					<div>
+						<h3 class="text-3xl roboto-serif-700">Education</h3>
+					</div>
+					<!-- Education  -->
+					<div>
+						<!-- First Entry -->
+						<div class="flex">
+							<!-- Timeline -->
+							<div class="mr-2">
+								<span
+									class="block w-4 h-4 rounded-full mt-1 z-bg-yellow"></span>
+								<span
+									class="block w-1 h-full translate-x-[6px] z-bg-yellow"></span>
+							</div>
+							<div class="">
+								<div class="font-bold">
+									Diploma in Software Development
+								</div>
+								<div>
+									<div>Expected Date: December 2025</div>
+									<div>
+										Southern Alberta Institute of Technology
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="flex">
+							<!-- Timeline -->
+							<div class="mr-2">
+								<span
+									class="block w-4 h-4 rounded-full mt-1 z-bg-yellow"></span>
+								<span
+									class="block w-1 h-full translate-x-[6px] z-bg-yellow"></span>
+							</div>
+							<div class="">
+								<div class="font-bold">
+									Master in Information Technology
+								</div>
+								<div class="">
+									<div>2017 - 2021</div>
+									<div>De La Salle University–Dasmariñas</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Last Entry -->
+						<div class="flex">
+							<div class="mr-2">
+								<span
+									class="block w-4 h-4 rounded-full mt-1 z-bg-yellow"></span>
+							</div>
+							<div class="">
+								<div class="font-bold">
+									Bachelor of Science in Computer Science
+								</div>
+								<div class="">
+									<div>2011 - 2014</div>
+									<div>De La Salle University–Dasmariñas</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+
+		<footer
+			class="w-11/12 h-10 mt-4 mx-auto flex justify-center text-black font-semibold">
+			<div>&copy; 2024 Alejo Kim Uy</div>
+		</footer>
+		<script></script>
+	</body>
+</html>
